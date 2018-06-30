@@ -1,0 +1,19 @@
+Galaga -> Infinite War
+
+Las claves son:
+
+Flecha izquierda, flecha derecha: mueve tu nave
+Flecha hacia abajo: detiene tu nave
+Enter, Space: láseres de fuego
+S, Retroceso, Flecha hacia arriba: escudos abiertos (si la carga es suficiente)
+Mayús + p, p: pausa el juego (presiona cualquier tecla para reanudar)
+Mayús + q, ESC: abandona el juego en cualquier momento
+
+En la esquina superior izquierda puede ver el indicador de carga de los escudos. Si está vacío, no puedes subirlos. Cuando comienza a cargar, puede abrir escudos ... la voluntad durará más si la carga es alta.
+Ten en cuenta que los escudos no se moverán ... ¡permanecerán donde los colocaste! esto a referencia del Cap!
+
+En la esquina superior derecha puede ver su puntaje.
+
+TENGO UN PROBLEMA!!!!!
+Si pongo la clase con naves.cpp me tira error, y si la dejo en naves.c si funciona :(
+

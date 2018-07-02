@@ -355,11 +355,29 @@ void abreHighScores(){
 
 	fclose(archivo);
 }
-
+/*
+void calculo(){
+int puntos=0;;;
+if (end_game==true)
+{
+puntos=puntos+1;
+}
+ FILE * f_mayor_puntuacion = NULL;
+    f_mayor_puntuacion = fopen("record.txt","r");
+    int recordactual=fscanf(f_mayor_puntuacion,"%d",&recordactual);
+    fclose(f_mayor_puntuacion);
+    if (puntos>recordactual)
+    {
+        f_mayor_puntuacion=fopen("record.txt","w");
+        fprintf(f_mayor_puntuacion,"El record actual son %d puntos",puntos);
+        fclose(f_mayor_puntuacion);
+    }
+}
+*/
 int main()
 {
 	abreHighScores();
-
+	//calculo();
 	srand(time(NULL));
 	pantalla_inicio();
 

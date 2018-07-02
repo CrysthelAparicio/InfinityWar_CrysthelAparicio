@@ -13,6 +13,7 @@ En la esquina superior izquierda puede ver el indicador de carga de los escudos.
 Ten en cuenta que los escudos no se moverán ... ¡permanecerán donde los colocaste! esto a referencia del Cap!
 
 En la esquina superior derecha puede ver su puntaje.
+En la esquina superior izquierda puede ver la vida de su nave
 
 TENGO UN PROBLEMA!!!!!
 Si pongo la clase con naves.cpp me tira error, y si la dejo en naves.c si funciona :(

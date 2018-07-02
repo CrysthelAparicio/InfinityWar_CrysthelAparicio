@@ -248,7 +248,8 @@ char *next_level(const char *actual)
 #endif
 	return next;
 }
-
+// https://www.todoexpertos.com/categorias/tecnologia-e-internet/programacion/c-y-c------/respuestas/307928/unsigned
+// para el valor de unsigned
 int thanos_nivel(unsigned short int moment) 
 {
 	static int start_end=0;
@@ -300,6 +301,8 @@ int creacion_naves()
 
 	if (ended)
 	{
+
+		//nivel de depuración
 #ifdef DEBUG_LEV
 		mvwprintw(term,24,0,"%X over   ",moment++);
 		return 1;

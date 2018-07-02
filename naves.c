@@ -3,11 +3,13 @@
 #include "niveles.h"
 #include "util.h"
 
+// https://stackoverflow.com/questions/10422034/when-to-use-extern-in-c de aqui saque el uso del extern (global)
 extern int x_ofs;
 extern int y_ofs;
 extern int puntaje;
 extern int juego_terminado;
 
+// https://stackoverflow.com/questions/48718123/byte-array-and-bitwise-operator de aqui saque el array 
 const bitmask bitmask_grande_nave   = {0xF8,0xF8,0x70,0x00,0x00};
 const bitmask bitmask_lit_nave   = {0xE0,0x40,0x00,0x00,0x00};
 const bitmask bitmask_bola_nave  = {0xE0,0xE0,0x00,0x00,0x00};

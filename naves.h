@@ -14,7 +14,7 @@
 #define AT_PEQUE   0
 
 #define MAX_ALT 5
-
+//https://vitaminacpp.wordpress.com/2013/01/06/const-contra-define/ USO DE LAS CONSTANTES AQUI!!
 typedef char bitmask[MAX_ALT];
 
 typedef struct
@@ -53,5 +53,5 @@ void sangre_naves(int);
 
 // Chequea las colisiones de las naves
 int colision_naves(int, int);
-
+// Encuentro violento de dos o más cuerpos, de los cuales al menos uno está en movimiento.
 #endif 

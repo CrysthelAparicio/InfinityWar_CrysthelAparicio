@@ -841,5 +841,5 @@ void blit_bordes(int color)
 	if ((x_ofs+80 < term_x) && (y_ofs+35 < term_y))
 		mvwaddch(term,y_ofs+35,x_ofs+80,(chtype)'O');
 
-	SET_COLOR(COL_BKG);
+	SET_COLOR(COL_GREEN);
 }

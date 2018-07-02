@@ -15,7 +15,12 @@ typedef struct
     void (*blit)(int,int,int);
     void (*clear)(int,int);
     short int damage;
+/*
+En su memento cuando la memoria era escasa, era necesario exprimir al maximo lo poco de memoria que tenia una maquina. Si que si una sabia los limites que podian alcanzar una variable en un programa, podia crear variables que ocupen mas o menos memoria.
+Uno de estos casos es el short. Al declarar un entero como short se le indica al compilador que utilice menos de los 32 bits usuales de memoria. De esta forma tenemos un programa mas compacto pero obviamente esa variable podia almacenar un rango de numero menor. El long encambio agranda el tamaño.
+ */   
     unsigned char gemas;
+// http://wiring.org.co/reference/es/unsignedchar.html para el unsigned
     s_bitmask collide;
 } nave_titan;
 
